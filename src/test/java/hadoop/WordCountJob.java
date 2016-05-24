@@ -11,6 +11,8 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 public class WordCountJob {
 	public static void main(String[] args) throws Exception {
+		System.setProperty("hadoop.home.dir", "D:\\hadoop-2.6.0");
+		System.setProperty("HADOOP_USER_NAME", "hdfs");
 		Configuration conf = new Configuration();
 		String[] otherArgs = new GenericOptionsParser(conf, args).getRemainingArgs();
 		if (otherArgs.length != 2) {

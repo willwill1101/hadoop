@@ -4,3 +4,4 @@ encoding//src/test/java=UTF-8
 encoding//src/test/java/hadoop/WordCountJob.java=UTF-8
 encoding//src/test/java/hadoop/WordCountMaper.java=UTF-8
 encoding//src/test/java/hadoop/WordCountReducer.java=UTF-8
+encoding/<project>=UTF-8
