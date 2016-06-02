@@ -1,0 +1,3 @@
+hadoop jar yangxmr-with-dependencies.jar hadoop.hbase.ReadHFileJob
+hadoop jar yangxmr-with-dependencies.jar hadoop.hbase.ReadHFileJob4FiledImage
+hadoop jar yangxmr-with-dependencies.jar hadoop.hbase.ReadHFileJob4Image
